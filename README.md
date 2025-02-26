@@ -69,7 +69,7 @@ Install cytofkitlab development version:
 # install devtools if not already done
 if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools")
 # install cytofkitlab
-devtools::install_github("i-cyto/cytofkitlab")
+devtools::install_github("Samuel-JULLY/cytofkitlab2.0")
 ```
 
 ### Usage
@@ -77,7 +77,7 @@ devtools::install_github("i-cyto/cytofkitlab")
 Same as cytofkit. After successfully installing the package, run the following codes to open the GUI:
 
 ``` r
-library(cytofkitlab)
+library(cytofkitlab2.0)
 cytofkit_GUI()
 ```
 
